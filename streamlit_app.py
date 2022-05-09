@@ -1,2 +1,4 @@
 import streamlit
-streamlit.title ('my parets new healthy diner')
+streamlit.title ('my moms new healthy diner')
+breakfast menu
+idly
