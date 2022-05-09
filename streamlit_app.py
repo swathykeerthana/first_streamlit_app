@@ -1,4 +1,4 @@
 import streamlit
 streamlit.title ('my moms new healthy diner')
-streamlit.header ('breakfast menu')
+streamlit.title ('breakfast menu')
 streamlit.text ('idly')
