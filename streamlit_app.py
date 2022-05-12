@@ -11,7 +11,8 @@ streamlit.text('🥑🍞 Avocado Toast')
 streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
 
 
-streamlit.header('fruityvice fruitadvice!')
+streamlit.header('fruityvice fruit advice!')
 import requests
-fruityvice_response=request.get("https://fruityvice.com/api/fruit/watermelon")
+fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
 streamlit.text(fruityvice_response.json())
+
