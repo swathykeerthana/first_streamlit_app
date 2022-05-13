@@ -14,7 +14,7 @@ streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
 
 streamlit.header('Fruityvice Fruit Advice!')
 try:
-fruit_choice = streamlit.text_input('what fruit would you like information about?','kiwi')
+fruit_choice = streamlit.text_input('what fruit would you like information about?')
 if not fruit_choice:
 streamlit.error("please select the fruit to get information")
 else:
