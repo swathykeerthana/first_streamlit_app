@@ -1,1 +1,4 @@
 snowflake-connector-python
+
+pipenv update streamlit
+pipenv run streamlit version
